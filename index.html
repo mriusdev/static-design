@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/title.css">
+    <link rel="stylesheet" href="./styles/search.css">
+    <link rel="stylesheet" href="./styles/table.css">
+    <link rel="stylesheet" href="./styles/pagination.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+
+    <title>Design</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="./logo/logo.svg" alt="">
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="main-body">
+            <!-- &nbsp; -->
+            <div class="title-container">
+                <div class="title__items">
+                    <a class="title__items-text">ŠALYS</a>
+
+                    <div class="title__items-add-container">
+                        <div class="title__items-add-btn">
+                            <img src="./assets/plus-symbol.svg" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="search-container">
+
+                <div class="search__items">
+                    <div class="search__items-search-block">
+                        <div class="search__items-search-input-container">
+                            <input type="text">
+                        </div>
+                        <div class="search__items-search-icon-container">
+                            <img src="./assets/search-symbol.svg" alt=""> 
+                        </div>
+                    </div>
+
+                    <div class="search__items-data-filter-block">
+                        <div class="search__items-data-filter-text-container">
+                            <a class="search__items-data-filter-text">
+                                DATA FILTER
+                            </a>
+                        </div>
+
+                        <div class="search__items-data-filter-dropdown-container">
+                            <img src="./assets/drop-down-symbol.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="table-container">
+                <table class="table__whole">
+                    <thead class="table__header">
+                        <tr>
+                            <th>
+                                <div class="table__header-nameAND-icon-container">
+                                    Pavadinimas
+
+                                    <div class="table__header-sort-container">
+                                        <div class="table__header-sort-icons">
+                                            <img src="./assets/sort-up-symbol.svg" alt="">
+                                        </div>
+                                        <div class="table__header-sort-icons">
+                                            <img src="./assets/sort-down-symbol.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th>Uzimamas plotas</th>
+                            <th>Gyventoju skaicius</th>
+                            <th>Sales Tel. Kodas</th>
+                            <th>Veiksmai</th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="table__body">
+                        <tr>
+                            <td>
+                                <a href="#">Lietuva</a>
+                            </td>
+                            <td>312312</td>
+                            <td>33333333</td>
+                            <td>+370</td>
+                            <td>
+                                <div class="table__body-options-container">
+                                    <div class="table__body-actions">
+                                        <img src="./assets/delete-symbol.svg" alt="">
+                                    </div>
+
+                                    <div>
+                                        <img src="./assets/table-line.svg" alt="">
+                                    </div>
+
+                                    <div class="table__body-actions">
+                                        <img src="./assets/edit-symbol.svg" alt="">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        
+                        
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="pagination-container">
+                <div class="pagination__previous-page-container">
+                    <img src="./assets/pagination-prev-symbol.svg" alt="">
+                </div>
+
+                <div class="pagination__pages-container">
+                    <a class="pagination__pages-current-page">
+                        1
+                    </a>
+                    <a>
+                        2
+                    </a>
+                    <a>
+                        3
+                    </a>
+                </div>
+
+                <div class="pagination__next-page-container">
+                    <img src="./assets/pagination-next-symbol.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+       
+
+    </div>
+
+    <div class="modal__container">
+
+        <div class="modal__content-container">
+            <div class="modal__title-container">
+                <a class="modal-title-text">
+                    PRIDĖTI ŠALĮ
+                </a>
+            </div>
+
+            <form>
+                <div class="modal__form-container">
+                    <div class="modal__form-input-container">
+                        <div class="modal__form-title-container">
+                            <a class="modal__form-title-text">Pavadinimas</a>
+                        </div>
+                        
+                        <div class="modal__form-input-block">
+                            <input class="modal__form-input" type="text">
+                        </div>
+
+                        
+                        <span class="modal__form-input-error-msg">Error msg</span>
+
+                    </div>
+                    <div class="modal__form-input-container">
+                        <div class="modal__form-title-container">
+                            <a class="modal__form-title-text">Užimamas plotas</a>
+                        </div>
+                        
+                        <div class="modal__form-input-block">
+                            <input class="modal__form-input" type="text">
+                        </div>
+
+                        
+                        <span class="modal__form-input-error-msg">Error msg</span>
+                        
+
+                    </div>
+                    <div class="modal__form-input-container">
+                        <div class="modal__form-title-container">
+                            <a class="modal__form-title-text">Gyventojų skaičius</a>
+                        </div>
+                        
+                        <div class="modal__form-input-block">
+                            <input class="modal__form-input" type="text">
+                        </div>
+
+                        
+                        <span class="modal__form-input-error-msg">Error msg</span>
+                        
+
+                    </div>
+                    <div class="modal__form-input-container">
+                        <div class="modal__form-title-container">
+                            <a class="modal__form-title-text">Šalies Tel. kodas</a>
+                        </div>
+                        
+                        <div class="modal__form-input-block">
+                            <input class="modal__form-input" type="text">
+                        </div>
+
+                        
+                        <span class="modal__form-input-error-msg">Error msg</span>
+                        
+
+                    </div>
+                    
+                    
+                    <div class="modal__form-btn-container">
+                        <span class="modal__form-input-success-msg">Success</span>
+                        <div class="modal__form-btn-div-wrap">
+                            <button class="modal__form-btn">SAUGOTI</button>
+                        </div>
+                    </div>
+
+                    <div class="modal__exit-btn-container">
+                        <img src="./assets/close-symbol.svg" alt="">
+
+                    </div>
+
+                    
+                    
+                </div>
+                
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
